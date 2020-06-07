@@ -8,6 +8,7 @@ function getUserUrl(id){
 export function getUser(userId){
     return http.get(getUserUrl(userId));
 }
+
 export function register(user){
     return http.post(apiEndpoint,{
         name:user.name,
