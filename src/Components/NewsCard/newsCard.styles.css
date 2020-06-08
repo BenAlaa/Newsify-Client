@@ -140,4 +140,7 @@
     .news-subCars-container{
         height: 40%;
     }
+    .news-card-container{
+        height: 70vh;
+    }
  }
