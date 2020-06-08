@@ -2,7 +2,8 @@
 .login-page-container{
     height: 100vh;
     padding: 0 !important;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .left-section{
     height: 100vh;

@@ -76,7 +76,7 @@ class LoginPage extends React.Component {
                         </div>
                     </Col>
                     <Col xl={6} >
-                        <div className="right-section d-lg-none d-xl-block">
+                        <div className="right-section d-lg-none d-xl-block d-none d-xl-block">
                             <img className="col-12 img-fluid" src={background} alt="logo"/>
                         </div>
                     </Col>
