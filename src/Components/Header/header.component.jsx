@@ -27,7 +27,7 @@ const Header = ({ user }) => {
                         </li>
                     }
                     {user && <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             {user.name}
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

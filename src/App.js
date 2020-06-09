@@ -8,7 +8,6 @@ import Logout from './Components/Logout/logout.component';
 import SourcesPage from './Pages/SourcesPage/sources.page';
 import NotFoundPage from './Pages/NotFoundPage/notFound.page';
 import {getCurrentUser} from './Services/auth.service';
-import './App.css';
 
 function App(props) {
   const user = getCurrentUser()
